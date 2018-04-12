@@ -1,6 +1,10 @@
+body{
+    background-color: lightgray;
+    
+}
 
 table{
-    background-color: lightgrey;
+    background-color: ;
     width: 600px;
     height: 150px;
     border: 5px solid green;
@@ -26,3 +30,4 @@ img{
     margin-top: -420px;
     margin-left: 5px;
 }
+

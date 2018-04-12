@@ -1,0 +1,121 @@
+
+
+.box1{
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding:2%;
+    width: 95%;
+    margin: 5px;
+
+
+
+}
+
+.box2{
+    border-radius: 4px;
+    background-color: orangered;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding:2%;
+    width: 95%;
+    margin: 5px;
+}
+
+.box3{
+    border-radius: 4px;
+    background-color: orangered;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding:2%;
+    width: 95%;
+    margin: 5px;
+}
+
+.button {
+
+    margin-top:5%;
+    border-radius: 4px;
+    background-color: orangered;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding:2%;
+    width: 99%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left:5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button2 {
+    border-radius: 4px;
+    background-color: orangered;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding:2%;
+    width: 99%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button2:hover span {
+    padding-right: 25px;
+}
+
+.button2:hover span:after {
+    opacity: 1;
+    right: 0;
+}

@@ -1,7 +1,10 @@
 Schwanzo: 
-10.4.18 * 2h Projekthandbuch
-10.4.18 * 1h Zeitplan
-10.4.18* 1h Javascript; 2h  11.4.18; 1h  12.4.18; 2h  13.4.18
+Projekthandbuch: 2h 10.4.18
+Zeitplan: 1h  10.4.18 
+Javascript Spiel: 1h  10.4.18; 
+                  2h  11.4.18; 
+                  1h  12.4.18; 
+                  3h  13.4.18;
 
 Aigner: 5h Pflichtenheft
 

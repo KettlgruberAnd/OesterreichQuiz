@@ -146,4 +146,21 @@ function startGame()
 
     }
 
+
+
 }
+function init() {
+    var buttonEins = document.getElementById('eins');
+    buttonEins.addEventListener('click', fensterOeffnen);
+}
+
+function fensterOeffnen() {
+    var text =
+        '<a href="javascript:window.close()"> <button>zurück</button></a>' + '<br><button id="zwei">Hilfe</button>' + '<br><a href="Menue1.html"><button>Zum Hauptmenü</button></a>';
+    var MeinFenster = window.open("about:blank", "Zweitfenster",
+        "fullscreen");
+    MeinFenster.document.write(text);
+    MeinFenster.focus();
+}
+window.addEventListener('DOMContentLoaded', init);
+

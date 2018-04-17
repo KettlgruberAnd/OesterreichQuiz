@@ -158,33 +158,34 @@ function startGame()
 function test() {
 
 
-    var Oberoesterreich = "Oberösterreich";
-    var Linz = "Linz";
-
+    var Burgenland = "Burgenland";
+    var Eisenstadt = "Eisenstadt";
+    
+    var Kaernten = "Kärnten";
+    var Klagenfurt = "Klagenfurt";
+    
     var Niederoesterreich = "Niederösterreich";
     var Stpoelten = "St.Pölten";
 
-    var Wien = "Wien";
-
-    var Burgenland = "Burgenland";
-    var Eisenstadt = "Eisenstadt";
-
+    var Oberoesterreich = "Oberösterreich";
+    var Linz = "Linz";
+    
+    var Salzburg = "Salzburg";
+    
     var Steiermark = "Steiermark";
     var Graz = "Graz";
-
-    var Salzburg = "Salzburg";
-
-    var Kaernten = "Kärnten";
-    var Klagenfurt = "Klagenfurt";
 
     var Tirol = "Tirol";
     var Innsbruck = "Innsbruck";
 
     var Voralberg = "Voralberg";
     var Bregenz = "Bregenz";
+    
+    var Wien = "Wien";
 
 
     var punkte = 0;
+    
     
     var txtBundes1;
     var txtHaupt1;
@@ -1062,14 +1063,14 @@ function test() {
 
 
 
-    if(1)
+    if(numBundes8 == 1)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(2)
+    else if(numBundes8 == 2)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
@@ -1204,18 +1205,3 @@ function test() {
     
 
 }
-function init() {
-    var buttonEins = document.getElementById('eins');
-    buttonEins.addEventListener('click', fensterOeffnen);
-}
-
-function fensterOeffnen() {
-    var text =
-        '<a href="javascript:window.close()"> <button>zurück</button></a>' + '<br><button id="zwei">Hilfe</button>' + '<br><a href="Menue1.html"><button>Zum Hauptmenü</button></a>';
-    var MeinFenster = window.open("about:blank", "Zweitfenster",
-        "fullscreen");
-    MeinFenster.document.write(text);
-    MeinFenster.focus();
-}
-window.addEventListener('DOMContentLoaded', init);
-

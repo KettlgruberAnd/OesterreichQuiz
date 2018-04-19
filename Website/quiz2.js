@@ -1195,13 +1195,13 @@ function test() {
     }
 
     if(punkte == 18)
-        alert("Super ! Du hast alle " + punkte + " Punkte.");
+        alert("Super ! Du hast alle " + punkte + " Punkte. 👍 😄");
     else if(punkte > 9)
-        alert("Nicht schlecht! Du hast " + punkte + " von 18 Punkte, das ist mehr als die Hälfte.");
+        alert("Nicht schlecht! Du hast " + punkte + " von 18 Punkte, das ist mehr als die Hälfte. 😉");
     else if((punkte < 9) && (punkte > 0))
-        alert("Schade ! Du hast nur " + punkte + " von 18 Punkten, das ist weniger als die Hälfte. Schau dir die Übung vielleicht nocheinmal an.");
+        alert("Schade ! Du hast nur " + punkte + " von 18 Punkten, das ist weniger als die Hälfte. Schau dir die Übung vielleicht nocheinmal an. 😖");
     else if(punkte == 0)
-        alert("Auweier !! Du hast " + punkte + " Punkte."); 
+        alert("Auweier !! Du hast " + punkte + " Punkte. 😰"); 
     
 
 }

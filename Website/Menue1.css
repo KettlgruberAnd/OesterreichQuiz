@@ -1,3 +1,10 @@
+body
+{
+    background-image: url("background-versuch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .box1{
     border-radius: 4px;
     background-color: orangered;

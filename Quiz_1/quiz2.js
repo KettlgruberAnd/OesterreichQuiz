@@ -158,33 +158,34 @@ function startGame()
 function test() {
 
 
-    var Oberoesterreich = "Oberösterreich";
-    var Linz = "Linz";
-
+    var Burgenland = "Burgenland";
+    var Eisenstadt = "Eisenstadt";
+    
+    var Kaernten = "Kärnten";
+    var Klagenfurt = "Klagenfurt";
+    
     var Niederoesterreich = "Niederösterreich";
     var Stpoelten = "St.Pölten";
 
-    var Wien = "Wien";
-
-    var Burgenland = "Burgenland";
-    var Eisenstadt = "Eisenstadt";
-
+    var Oberoesterreich = "Oberösterreich";
+    var Linz = "Linz";
+    
+    var Salzburg = "Salzburg";
+    
     var Steiermark = "Steiermark";
     var Graz = "Graz";
-
-    var Salzburg = "Salzburg";
-
-    var Kaernten = "Kärnten";
-    var Klagenfurt = "Klagenfurt";
 
     var Tirol = "Tirol";
     var Innsbruck = "Innsbruck";
 
-    var Voralberg = "Voralberg";
+    var Voralberg = "Vorarlberg";
     var Bregenz = "Bregenz";
+    
+    var Wien = "Wien";
 
 
     var punkte = 0;
+    
     
     var txtBundes1;
     var txtHaupt1;
@@ -244,7 +245,7 @@ function test() {
              txtHaupt1 = Innsbruck;
             break;
         case (8):
-             txtBundes1 = Voralberg;
+             txtBundes1 = Vorarlberg;
              txtHaupt1 = Bregenz;
             break;
         case (9):
@@ -1062,14 +1063,14 @@ function test() {
 
 
 
-    if(1)
+    if(numBundes8 == 1)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(2)
+    else if(numBundes8 == 2)
     {
         if(varBundes8 == txtBundes8)
             punkte++;

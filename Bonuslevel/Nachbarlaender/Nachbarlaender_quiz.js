@@ -980,21 +980,21 @@ function test() {
 
 
 
-    if(1)
+    if(numBundes == 1)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(2)
+    else if(numBundes == 2)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(3)
+    else if(numBundes == 3)
     {
         if(varBundes8 == txtBundes8)
             punkte++;

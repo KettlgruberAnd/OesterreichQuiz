@@ -1077,7 +1077,7 @@ function test() {
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(3)
+    else if(numBundes == 3)
     {
         if(varBundes8 == txtBundes8)
             punkte++;

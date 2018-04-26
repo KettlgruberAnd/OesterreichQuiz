@@ -1,17 +1,48 @@
+body {
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 table {
     border-collapse: collapse;
-    border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
-    height: 100%;
 }
 
 th, td {
     text-align: left;
     padding: 8px;
-}
-td
-{
+    height: 60px;
     border: 1px solid black;
 }
 
+tr {
+    background-color: grey;
+}
+
+tr:nth-child(even){background-color: lightblue}
+
+thead {
+    background-color: green;
+}
+
+.fullscreen1
+{
+    right: 10px;
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.fullscreen2
+{
+    right: 10px;
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}

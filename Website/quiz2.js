@@ -158,414 +158,413 @@ function startGame()
 function test() {
 
 
-    var Burgenland = "Burgenland";
-    var Eisenstadt = "Eisenstadt";
-    
-    var Kaernten = "Kärnten";
-    var Klagenfurt = "Klagenfurt";
-    
+    var Oberoesterreich = "Oberösterreich";
+    var Linz = "Linz";
+
     var Niederoesterreich = "Niederösterreich";
     var Stpoelten = "St.Pölten";
 
-    var Oberoesterreich = "Oberösterreich";
-    var Linz = "Linz";
-    
-    var Salzburg = "Salzburg";
-    
+    var Wien = "Wien";
+
+    var Burgenland = "Burgenland";
+    var Eisenstadt = "Eisenstadt";
+
     var Steiermark = "Steiermark";
     var Graz = "Graz";
+
+    var Salzburg = "Salzburg";
+
+    var Kaernten = "Kärnten";
+    var Klagenfurt = "Klagenfurt";
 
     var Tirol = "Tirol";
     var Innsbruck = "Innsbruck";
 
-    var Voralberg = "Vorarlberg";
+    var Voralberg = "Voralberg";
     var Bregenz = "Bregenz";
-    
-    var Wien = "Wien";
 
 
     var punkte = 0;
-    
-    
+
     var txtBundes1;
     var txtHaupt1;
-    
+
     var txtBundes2;
     var txtHaupt2;
-    
+
     var txtBundes3;
     var txtHaupt3;
-    
+
     var txtBundes4;
     var txtHaupt4;
-    
+
     var txtBundes5;
     var txtHaupt5;
-    
+
     var txtBundes6;
     var txtHaupt6;
-    
+
     var txtBundes7;
     var txtHaupt7;
-    
+
     var txtBundes8;
     var txtHaupt8;
-    
+
     var txtBundes9;
     var txtHaupt9;
-    
+
 
     switch(numBundes1){
         case (1):
-             txtBundes1 = Burgenland;
-             txtHaupt1 = Eisenstadt;
+            txtBundes1 = Burgenland;
+            txtHaupt1 = Eisenstadt;
             break;
         case (2):
-             txtBundes2 = Kaernten;
-             txtHaupt2 = Klagenfurt;
+            txtBundes2 = Kaernten;
+            txtHaupt2 = Klagenfurt;
             break;
         case (3):
-             txtBundes1 = Niederoesterreich;
-             txtHaupt1 = Stpoelten;
+            txtBundes1 = Niederoesterreich;
+            txtHaupt1 = Stpoelten;
             break;
         case (4):
-             txtBundes1 = Oberoesterreich;
-             txtHaupt1 = Linz;
+            txtBundes1 = Oberoesterreich;
+            txtHaupt1 = Linz;
             break;
         case (5):
-             txtBundes1 = Salzburg;
-             txtHaupt1 = Salzburg;
+            txtBundes1 = Salzburg;
+            txtHaupt1 = Salzburg;
             break;
         case (6):
-             txtBundes1 = Steiermark;
-             txtHaupt1 = Graz;
+            txtBundes1 = Steiermark;
+            txtHaupt1 = Graz;
             break;
         case (7):
-             txtBundes1 = Tirol;
-             txtHaupt1 = Innsbruck;
+            txtBundes1 = Tirol;
+            txtHaupt1 = Innsbruck;
             break;
         case (8):
-             txtBundes1 = Vorarlberg;
-             txtHaupt1 = Bregenz;
+            txtBundes1 = Voralberg;
+            txtHaupt1 = Bregenz;
             break;
         case (9):
-             txtBundes1 = Wien;
-             txtHaupt1 = Wien;
+            txtBundes1 = Wien;
+            txtHaupt1 = Wien;
             break;
     }
 
     switch(numBundes2){
         case (1):
-             txtBundes2 = Burgenland;
-             txtHaupt2 = Eisenstadt;
+            txtBundes2 = Burgenland;
+            txtHaupt2 = Eisenstadt;
             break;
         case (2):
-             txtBundes2 = Kaernten;
-             txtHaupt2 = Klagenfurt;
+            txtBundes2 = Kaernten;
+            txtHaupt2 = Klagenfurt;
             break;
         case (3):
-             txtBundes2 = Niederoesterreich;
-             txtHaupt2 = Stpoelten;
+            txtBundes2 = Niederoesterreich;
+            txtHaupt2 = Stpoelten;
             break;
         case (4):
-             txtBundes2 = Oberoesterreich;
-             txtHaupt2 = Linz;
+            txtBundes2 = Oberoesterreich;
+            txtHaupt2 = Linz;
             break;
         case (5):
-             txtBundes2 = Salzburg;
-             txtHaupt2 = Salzburg;
+            txtBundes2 = Salzburg;
+            txtHaupt2 = Salzburg;
             break;
         case (6):
-             txtBundes2 = Steiermark;
-             txtHaupt2 = Graz;
+            txtBundes2 = Steiermark;
+            txtHaupt2 = Graz;
             break;
         case (7):
-             txtBundes2 = Tirol;
-             txtHaupt2 = Innsbruck;
+            txtBundes2 = Tirol;
+            txtHaupt2 = Innsbruck;
             break;
         case (8):
-             txtBundes2 = Voralberg;
-             txtHaupt2 = Bregenz;
+            txtBundes2 = Voralberg;
+            txtHaupt2 = Bregenz;
             break;
         case (9):
-             txtBundes2 = Wien;
-             txtHaupt2 = Wien;
+            txtBundes2 = Wien;
+            txtHaupt2 = Wien;
             break;
     }
 
     switch(numBundes3){
         case (1):
-             txtBundes3 = Burgenland;
-             txtHaupt3 = Eisenstadt;
+            txtBundes3 = Burgenland;
+            txtHaupt3 = Eisenstadt;
             break;
         case (2):
-             txtBundes3 = Kaernten;
-             txtHaupt3 = Klagenfurt;
+            txtBundes3 = Kaernten;
+            txtHaupt3 = Klagenfurt;
             break;
         case (3):
-             txtBundes3 = Niederoesterreich;
-             txtHaupt3 = Stpoelten;
+            txtBundes3 = Niederoesterreich;
+            txtHaupt3 = Stpoelten;
             break;
         case (4):
-             txtBundes3 = Oberoesterreich;
-             txtHaupt3 = Linz;
+            txtBundes3 = Oberoesterreich;
+            txtHaupt3 = Linz;
             break;
         case (5):
-             txtBundes3 = Salzburg;
-             txtHaupt3 = Salzburg;
+            txtBundes3 = Salzburg;
+            txtHaupt3 = Salzburg;
             break;
         case (6):
-             txtBundes3 = Steiermark;
-             txtHaupt3 = Graz;
+            txtBundes3 = Steiermark;
+            txtHaupt3 = Graz;
             break;
         case (7):
-             txtBundes3 = Tirol;
-             txtHaupt3 = Innsbruck;
+            txtBundes3 = Tirol;
+            txtHaupt3 = Innsbruck;
             break;
         case (8):
-             txtBundes3 = Voralberg;
-             txtHaupt3 = Bregenz;
+            txtBundes3 = Voralberg;
+            txtHaupt3 = Bregenz;
             break;
         case (9):
-             txtBundes3 = Wien;
-             txtHaupt3 = Wien;
+            txtBundes3 = Wien;
+            txtHaupt3 = Wien;
             break;
     }
 
     switch(numBundes4){
         case (1):
-             txtBundes4 = Burgenland;
-             txtHaupt4 = Eisenstadt;
+            txtBundes4 = Burgenland;
+            txtHaupt4 = Eisenstadt;
             break;
         case (2):
-             txtBundes4 = Kaernten;
-             txtHaupt4 = Klagenfurt;
+            txtBundes4 = Kaernten;
+            txtHaupt4 = Klagenfurt;
             break;
         case (3):
-             txtBundes4 = Niederoesterreich;
-             txtHaupt4 = Stpoelten;
+            txtBundes4 = Niederoesterreich;
+            txtHaupt4 = Stpoelten;
             break;
         case (4):
-             txtBundes4 = Oberoesterreich;
-             txtHaupt4 = Linz;
+            txtBundes4 = Oberoesterreich;
+            txtHaupt4 = Linz;
             break;
         case (5):
-             txtBundes4 = Salzburg;
-             txtHaupt4 = Salzburg;
+            txtBundes4 = Salzburg;
+            txtHaupt4 = Salzburg;
             break;
         case (6):
-             txtBundes4 = Steiermark;
-             txtHaupt4 = Graz;
+            txtBundes4 = Steiermark;
+            txtHaupt4 = Graz;
             break;
         case (7):
-             txtBundes4 = Tirol;
-             txtHaupt4 = Innsbruck;
+            txtBundes4 = Tirol;
+            txtHaupt4 = Innsbruck;
             break;
         case (8):
-             txtBundes4 = Voralberg;
-             txtHaupt4 = Bregenz;
+            txtBundes4 = Voralberg;
+            txtHaupt4 = Bregenz;
             break;
         case (9):
-             txtBundes4 = Wien;
-             txtHaupt4 = Wien;
+            txtBundes4 = Wien;
+            txtHaupt4 = Wien;
             break;
     }
 
     switch(numBundes5){
         case (1):
-             txtBundes5 = Burgenland;
-             txtHaupt5 = Eisenstadt;
+            txtBundes5 = Burgenland;
+            txtHaupt5 = Eisenstadt;
             break;
         case (2):
-             txtBundes5 = Kaernten;
-             txtHaupt5 = Klagenfurt;
+            txtBundes5 = Kaernten;
+            txtHaupt5 = Klagenfurt;
             break;
         case (3):
-             txtBundes5 = Niederoesterreich;
-             txtHaupt5 = Stpoelten;
+            txtBundes5 = Niederoesterreich;
+            txtHaupt5 = Stpoelten;
             break;
         case (4):
-             txtBundes5 = Oberoesterreich;
-             txtHaupt5 = Linz;
+            txtBundes5 = Oberoesterreich;
+            txtHaupt5 = Linz;
             break;
         case (5):
-             txtBundes5 = Salzburg;
-             txtHaupt5 = Salzburg;
+            txtBundes5 = Salzburg;
+            txtHaupt5 = Salzburg;
             break;
         case (6):
-             txtBundes5 = Steiermark;
-             txtHaupt5 = Graz;
+            txtBundes5 = Steiermark;
+            txtHaupt5 = Graz;
             break;
         case (7):
-             txtBundes5 = Tirol;
-             txtHaupt5 = Innsbruck;
+            txtBundes5 = Tirol;
+            txtHaupt5 = Innsbruck;
             break;
         case (8):
-             txtBundes5 = Voralberg;
-             txtHaupt5 = Bregenz;
+            txtBundes5 = Voralberg;
+            txtHaupt5 = Bregenz;
             break;
         case (9):
-             txtBundes5 = Wien;
-             txtHaupt5 = Wien;
+            txtBundes5 = Wien;
+            txtHaupt5 = Wien;
             break;
     }
 
     switch(numBundes6){
         case (1):
-             txtBundes6 = Burgenland;
-             txtHaupt6 = Eisenstadt;
+            txtBundes6 = Burgenland;
+            txtHaupt6 = Eisenstadt;
             break;
         case (2):
-             txtBundes6 = Kaernten;
-             txtHaupt6 = Klagenfurt;
+            txtBundes6 = Kaernten;
+            txtHaupt6 = Klagenfurt;
             break;
         case (3):
-             txtBundes6 = Niederoesterreich;
-             txtHaupt6 = Stpoelten;
+            txtBundes6 = Niederoesterreich;
+            txtHaupt6 = Stpoelten;
             break;
         case (4):
-             txtBundes6 = Oberoesterreich;
-             txtHaupt6 = Linz;
+            txtBundes6 = Oberoesterreich;
+            txtHaupt6 = Linz;
             break;
         case (5):
-             txtBundes6 = Salzburg;
-             txtHaupt6 = Salzburg;
+            txtBundes6 = Salzburg;
+            txtHaupt6 = Salzburg;
             break;
         case (6):
-             txtBundes6 = Steiermark;
-             txtHaupt6 = Graz;
+            txtBundes6 = Steiermark;
+            txtHaupt6 = Graz;
             break;
         case (7):
-             txtBundes6 = Tirol;
-             txtHaupt6 = Innsbruck;
+            txtBundes6 = Tirol;
+            txtHaupt6 = Innsbruck;
             break;
         case (8):
-             txtBundes6 = Voralberg;
-             txtHaupt6 = Bregenz;
+            txtBundes6 = Voralberg;
+            txtHaupt6 = Bregenz;
             break;
         case (9):
-             txtBundes6 = Wien;
-             txtHaupt6 = Wien;
+            txtBundes6 = Wien;
+            txtHaupt6 = Wien;
             break;
     }
 
     switch(numBundes7){
         case (1):
-             txtBundes7 = Burgenland;
-             txtHaupt7 = Eisenstadt;
+            txtBundes7 = Burgenland;
+            txtHaupt7 = Eisenstadt;
             break;
         case (2):
-             txtBundes7 = Kaernten;
-             txtHaupt7 = Klagenfurt;
+            txtBundes7 = Kaernten;
+            txtHaupt7 = Klagenfurt;
             break;
         case (3):
-             txtBundes7 = Niederoesterreich;
-             txtHaupt7 = Stpoelten;
+            txtBundes7 = Niederoesterreich;
+            txtHaupt7 = Stpoelten;
             break;
         case (4):
-             txtBundes7 = Oberoesterreich;
-             txtHaupt7 = Linz;
+            txtBundes7 = Oberoesterreich;
+            txtHaupt7 = Linz;
             break;
         case (5):
-             txtBundes7 = Salzburg;
-             txtHaupt7 = Salzburg;
+            txtBundes7 = Salzburg;
+            txtHaupt7 = Salzburg;
             break;
         case (6):
-             txtBundes7 = Steiermark;
-             txtHaupt7 = Graz;
+            txtBundes7 = Steiermark;
+            txtHaupt7 = Graz;
             break;
         case (7):
-             txtBundes7 = Tirol;
-             txtHaupt7 = Innsbruck;
+            txtBundes7 = Tirol;
+            txtHaupt7 = Innsbruck;
             break;
         case (8):
-             txtBundes7 = Voralberg;
-             txtHaupt7 = Bregenz;
+            txtBundes7 = Voralberg;
+            txtHaupt7 = Bregenz;
             break;
         case (9):
-             txtBundes7 = Wien;
-             txtHaupt7 = Wien;
+            txtBundes7 = Wien;
+            txtHaupt7 = Wien;
             break;
     }
 
     switch(numBundes8){
         case (1):
-             txtBundes8 = Burgenland;
-             txtHaupt8 = Eisenstadt;
+            txtBundes8 = Burgenland;
+            txtHaupt8 = Eisenstadt;
             break;
         case (2):
-             txtBundes8 = Kaernten;
-             txtHaupt8 = Klagenfurt;
+            txtBundes8 = Kaernten;
+            txtHaupt8 = Klagenfurt;
             break;
         case (3):
-             txtBundes8 = Niederoesterreich;
-             txtHaupt8 = Stpoelten;
+            txtBundes8 = Niederoesterreich;
+            txtHaupt8 = Stpoelten;
             break;
         case (4):
-             txtBundes8 = Oberoesterreich;
-             txtHaupt8 = Linz;
+            txtBundes8 = Oberoesterreich;
+            txtHaupt8 = Linz;
             break;
         case (5):
-             txtBundes8 = Salzburg;
-             txtHaupt8 = Salzburg;
+            txtBundes8 = Salzburg;
+            txtHaupt8 = Salzburg;
             break;
         case (6):
-             txtBundes8 = Steiermark;
-             txtHaupt8 = Graz;
+            txtBundes8 = Steiermark;
+            txtHaupt8 = Graz;
             break;
         case (7):
-             txtBundes8 = Tirol;
-             txtHaupt8 = Innsbruck;
+            txtBundes8 = Tirol;
+            txtHaupt8 = Innsbruck;
             break;
         case (8):
-             txtBundes8 = Voralberg;
-             txtHaupt8 = Bregenz;
+            txtBundes8 = Voralberg;
+            txtHaupt8 = Bregenz;
             break;
         case (9):
-             txtBundes8 = Wien;
-             txtHaupt8 = Wien;
+            txtBundes8 = Wien;
+            txtHaupt8 = Wien;
             break;
     }
 
     switch(numBundes9){
         case (1):
-             txtBundes9 = Burgenland;
-             txtHaupt9 = Eisenstadt;
+            txtBundes9 = Burgenland;
+            txtHaupt9 = Eisenstadt;
             break;
         case (2):
-             txtBundes9 = Kaernten;
-             txtHaupt9 = Klagenfurt;
+            txtBundes9 = Kaernten;
+            txtHaupt9 = Klagenfurt;
             break;
         case (3):
-             txtBundes9 = Niederoesterreich;
-             txtHaupt9 = Stpoelten;
+            txtBundes9 = Niederoesterreich;
+            txtHaupt9 = Stpoelten;
             break;
         case (4):
-             txtBundes9 = Oberoesterreich;
-             txtHaupt9 = Linz;
+            txtBundes9 = Oberoesterreich;
+            txtHaupt9 = Linz;
             break;
         case (5):
-             txtBundes9 = Salzburg;
-             txtHaupt9 = Salzburg;
+            txtBundes9 = Salzburg;
+            txtHaupt9 = Salzburg;
             break;
         case (6):
-             txtBundes9 = Steiermark;
-             txtHaupt9 = Graz;
+            txtBundes9 = Steiermark;
+            txtHaupt9 = Graz;
             break;
         case (7):
-             txtBundes9 = Tirol;
-             txtHaupt9 = Innsbruck;
+            txtBundes9 = Tirol;
+            txtHaupt9 = Innsbruck;
             break;
         case (8):
-             txtBundes9 = Voralberg;
-             txtHaupt9 = Bregenz;
+            txtBundes9 = Voralberg;
+            txtHaupt9 = Bregenz;
             break;
         case (9):
-             txtBundes9 = Wien;
-             txtHaupt9 = Wien;
+            txtBundes9 = Wien;
+            txtHaupt9 = Wien;
             break;
     }
-   
+
 
     var varBundes1 = document.getElementById("einBundes1").value;
     var varHaupt1 = document.getElementById("einHaupt1").value;
@@ -1063,21 +1062,21 @@ function test() {
 
 
 
-    if(numBundes8 == 1)
+    if(1)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(numBundes8 == 2)
+    else if(2)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
         if(varHaupt8 == txtHaupt8)
             punkte++;
     }
-    else if(numBundes == 3)
+    else if(3)
     {
         if(varBundes8 == txtBundes8)
             punkte++;
@@ -1195,13 +1194,54 @@ function test() {
     }
 
     if(punkte == 18)
-        alert("Super ! Du hast alle " + punkte + " Punkte. 👍 😄");
+        alert("Super ! Du hast alle " + punkte + " Punkte.");
     else if(punkte > 9)
-        alert("Nicht schlecht! Du hast " + punkte + " von 18 Punkte, das ist mehr als die Hälfte. 😉");
+        alert("Nicht schlecht! Du hast " + punkte + " von 18 Punkte, das ist mehr als die Hälfte.");
     else if((punkte < 9) && (punkte > 0))
-        alert("Schade ! Du hast nur " + punkte + " von 18 Punkten, das ist weniger als die Hälfte. Schau dir die Übung vielleicht nocheinmal an. 😖");
+        alert("Schade ! Du hast nur " + punkte + " von 18 Punkten, das ist weniger als die Hälfte. Schau dir die Übung vielleicht nocheinmal an.");
     else if(punkte == 0)
-        alert("Auweier !! Du hast " + punkte + " Punkte. 😰"); 
-    
+        alert("Auweier !! Du hast " + punkte + " Punkte.");
+
 
 }
+
+'use strict';
+(function () {
+    function init() {
+        var image = document.querySelector('img');
+        image.addEventListener('click', function () {
+            enterFullscreen(image);
+        });
+        var buttonOn = document.querySelector('#on');
+        buttonOn.addEventListener('click', function () {
+            enterFullscreen(document.documentElement);
+        });
+        var buttonExit = document.querySelector('#exit');
+        buttonExit.addEventListener('click', exitFullscreen);
+    }
+
+    function enterFullscreen(element) {
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullscreen) {
+            element.webkitRequestFullscreen();
+        } else if (element.msRequestFullscreen) {
+            element.msRequestFullscreen();
+        }
+    }
+
+    function exitFullscreen() {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        }
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        init();
+    });
+}());

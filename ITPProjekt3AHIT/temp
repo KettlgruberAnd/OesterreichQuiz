@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formular</title>
+    <style type="text/css">
+        .underscore{
+            width:50px;
+            border : 0;
+            border-bottom : 1px;
+            border-bottom-style : solid;
+        }
+
+    </style>
+</head>
+<body>
+<form action="bla.php">
+    He <input type="text" name="feld1" class="underscore" />
+    (say) that he can
+    <input type="text" name="feld1" class="underscore" />
+    (come) tommorrow
+    <input type="submit" name="submit" value="submit" class="button_m" />
+</form>
+
+</body>
+</html>

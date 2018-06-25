@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<title>Lernspiel</title>
+<link rel="stylesheet" href="design.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align" style="font-size: 20px;">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-teal"><img src="LOGO.png" alt = "Boss" height="30px" width="30px"> </a>
+        <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+        <a href="#team" class="w3-bar-item w3-button">Team</a>
+        <a href="#work" class="w3-bar-item w3-button">Work</a>s
+        <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        <a href="#" class="w3-bar-item w3-button">Search</a>
+    </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+    <img src="pexels-photo-533828.jpeg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+    <div class="w3-container w3-display-middle w3-margin-auto">
+        <span class="whitefont"><h1 style="font-size: 42px">Länderquiz<img src="LOGO.png" height="40" width="40"></h1>Schüler sollen schnell und einfach viele wichtige Information über Österreich erhalten und dies sollte auf einen spielerischen Weg passieren. Zusätzlich kann das Programm in Übungs- oder Testmodus laufen bei den Eingaben korrigiert und benotet werden.</span>
+        <br><br><a href="Menue1.html"> <button class="button" style="vertical-align:middle"><span>Spielen</span></button></a>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+        <header class="w3-container w3-teal w3-display-container">
+            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+            <h4>Oh snap! We just showed you a modal..</h4>
+            <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+        </header>
+        <div class="w3-container">
+            <p>Cool huh? Ok, enough teasing around..</p>
+            <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+        </div>
+        <footer class="w3-container w3-teal">
+            <p>Modal footer</p>
+        </footer>
+    </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+
+    <div class="w3-row"><br>
+
+    <div class="w3-row"><br>
+        <div class="w3-quarter">
+            <h1>Projektleiter</h1>
+            <br>
+            <img src="Kettlgruber1_Andreas.jpg" alt="Boss" height="200" width="200" class="w3-circle w3-hover-opacity">
+            <h4>Kettlgruber Andreas</h4>
+        </div></div>
+    <div class="w3-row"><br>
+        <div class="w3-quarter">
+            <h1> Teammitglieder</h1><br>
+            <img src="Gavric_Daniel1.JPG" alt="Boss" height="200" width="200" class="w3-circle w3-hover-opacity">
+            <h4>Gavric Daniel</h4>
+        </div>
+
+        <div class="w3-quarter">
+            <br><br><br><br>
+            <img src="Zauner_Sebastian1.jpg" alt="Boss" height="200" width="200" class="w3-circle w3-hover-opacity" style="margin-top: 5px;">
+            <h4>Zauner Sebastian</h4>
+        </div>
+
+        <div class="w3-quarter">
+            <br><br><br><br>
+            <img src="Peric_Lazar1.jpg" alt="Boss" height="200" width="200" class="w3-circle w3-hover-opacity" style="margin-top: 5px;">
+            <h4>Peric Lazar</h4>
+        </div>
+
+        <div class="w3-quarter">
+            <br><br><br><br>
+            <img src="Aigner_Bastian1.jpg" alt="Boss" height="200" width="200" class="w3-circle w3-hover-opacity" style="margin-top: 5px;">
+            <h4>Aigner Bastian</h4>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+    <div class="w3-row">
+        <div class="w3-col m5">
+            <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Kontakt:</span></div>
+            <h3>Addresse</h3>
+            <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Wels, OÖ</p>
+            <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>+43 660 4086559</p>
+            <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>danielgavric@gmail.com</p>
+        </div>
+        <div class="w3-col m7">
+            <form class="w3-container w3-card-4 w3-padding-16 w3-white"  target="_blank">
+                <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input" type="text" name="name" required>
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input" type="text" name="email" required>
+                </div>
+                <div class="w3-section">
+                    <label>Message</label>
+                    <input class="w3-input" type="text" name="message" required>
+                </div>
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+</footer>
+
+
+
+</body>
+</html>
